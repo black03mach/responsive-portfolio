@@ -2,10 +2,73 @@ body nav {
     font-family: 'Average Sans', sans-serif;
 }
 
+.aboutme,
+.portfolio,
 .contact {
-    font-size: 50px;
+    font-size: 35px;
+    font-family: 'Average Sans', sans-serif;
+    text-align: center;
 }
 
-.contactform{
-    background-color: lightslategray;
+.contact-form{
+    margin: auto;
+    max-width:800px;
+    font-family: 'Average Sans', sans-serif;
+}
+
+.contact-form h1{
+    font-family: 'Average Sans', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+.button{
+    margin-left: 16px
+}
+
+.copyright {
+    clear:both;
+    padding-top: 30px;
+    left:0;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    font-family: 'Average Sans', sans-serif;
+    padding:30px;
+    font-weight:bold;
+}
+
+.card{
+    margin:auto;
+    height:375px;
+}
+
+div img {
+    height:175px;
+    width:auto;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) { 
+    .card{
+        margin-top: 15px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .card{
+        margin-top: 15px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
 }
