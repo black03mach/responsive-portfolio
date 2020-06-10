@@ -51,16 +51,12 @@ div img {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 300px) { 
-    .card{
-        margin-top: 15px;
-    }
+    
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-    .card{
-        margin-top: 15px;
-    }
+
 }
 
 /* Large devices (desktops, 992px and up)*/
