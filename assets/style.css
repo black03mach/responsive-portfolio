@@ -10,6 +10,15 @@ body nav {
     text-align: center;
 }
 
+footer{
+    font-family: 'Average Sans', sans-serif;
+}
+
+.circleimg{
+    border-radius: 50%;
+    height: 350px;
+}
+
 .contact-form{
     margin: auto;
     max-width:800px;
@@ -51,7 +60,7 @@ div img {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 300px) { 
-    
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
