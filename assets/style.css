@@ -7,7 +7,18 @@ body nav {
 .contact {
     font-size: 35px;
     font-family: 'Average Sans', sans-serif;
+    display: block;
     text-align: center;
+}
+
+section{
+    display:flex
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer{
@@ -16,7 +27,7 @@ footer{
 
 .circleimg{
     border-radius: 50%;
-    height: 350px;
+    width:100%
 }
 
 .contact-form{
@@ -51,11 +62,6 @@ footer{
 .card{
     margin:auto;
     height:375px;
-}
-
-div img {
-    height:175px;
-    width:auto;
 }
 
 /*Small devices (landscape phones, 576px and up)*/
