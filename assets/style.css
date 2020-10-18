@@ -30,6 +30,13 @@ footer{
     width:100%
 }
 
+
+.contact2{
+    font-family: 'Average Sans', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
 .contact-form{
     margin: auto;
     max-width:800px;
@@ -64,6 +71,10 @@ footer{
     height:375px;
 }
 
+.card1{
+    margin:auto;
+    height:320px
+}
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 300px) { 
 
